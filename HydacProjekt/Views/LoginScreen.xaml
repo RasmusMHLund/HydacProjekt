@@ -14,6 +14,8 @@
         <Button x:Name="Register" Content="Register" HorizontalAlignment="Center" Margin="0,328,0,0" VerticalAlignment="Top" Click="Button_Click" Height="29" Width="60"/>
         <Rectangle HorizontalAlignment="Center" Height="60" VerticalAlignment="Top" Width="800" Fill="DimGray"/>
         <Image Margin="0,-7,556,367" Source="/HYDAC_Logo_NOVO_(1).png" Stretch="Fill"/>
+        <Image Margin="0,0,-2944,-790" Source="/Image2.png" Stretch="Fill"/>
+        <Image Margin="216,-16,216,313" Source="/Images/HYDAC_Logo_NOVO_(1).png" Stretch="Fill"/>
 
     </Grid>
 </Window>
