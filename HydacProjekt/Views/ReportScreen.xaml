@@ -1,0 +1,14 @@
+﻿<Window x:Class="HydacProjekt.Views.ReportScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HydacProjekt.Views"
+        mc:Ignorable="d"
+        Title="ReportScreen" Height="450" Width="800">
+    <Grid>
+        <Rectangle HorizontalAlignment="Center" Height="60" VerticalAlignment="Top" Width="800" Fill="DimGray"/>
+        <Image Margin="0,-7,556,367" Source="/HYDAC_Logo_NOVO_(1).png" Stretch="Fill"/>
+
+    </Grid>
+</Window>
