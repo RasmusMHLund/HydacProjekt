@@ -7,13 +7,13 @@
         mc:Ignorable="d"
         Title="MainMenu" Height="450" Width="800">
     <Grid>
-        <Label Content="Hydac Service Portal" HorizontalAlignment="Center" Margin="0,84,0,0" VerticalAlignment="Top" Height="37" Width="244" FontSize="24" FontWeight="Bold"/>
-        <Button x:Name="Report_Screen" Content="Create Report" HorizontalAlignment="Center" Margin="0,180,0,0" VerticalAlignment="Top" Height="44" Width="112" Click="Button_Click"/>
-        <Button x:Name="Solution_Screen" Content="View Report List" HorizontalAlignment="Center" Margin="0,240,0,0" VerticalAlignment="Top" Height="44" Width="112"/>
-        <Button x:Name="Product_Screen" Content="Edit Products" HorizontalAlignment="Center" Margin="0,300,0,0" VerticalAlignment="Top" Height="44" Width="112"/>
+        <Button x:Name="Report_Screen" Content="Create Report" HorizontalAlignment="Center" Margin="0,180,0,0" VerticalAlignment="Top" Height="44" Width="112" Click="Report_Screen_Click"/>
+        <Button x:Name="Solution_Screen" Content="View Report List" HorizontalAlignment="Center" Margin="0,240,0,0" VerticalAlignment="Top" Height="44" Width="112" Click="Solution_Screen_Click"/>
+        <Button x:Name="Product_Screen" Content="Edit Products" HorizontalAlignment="Center" Margin="0,300,0,0" VerticalAlignment="Top" Height="44" Width="112" Click="Product_Screen_Click"/>
         <Rectangle HorizontalAlignment="Center" Height="60" VerticalAlignment="Top" Width="800" Fill="DimGray"/>
         <Image Margin="0,-7,556,367" Source="/HYDAC_Logo_NOVO_(1).png" Stretch="Fill"/>
         <Image Margin="216,-16,216,313" Source="/Images/HYDAC_Logo_NOVO_(1).png" Stretch="Fill"/>
+        <Button Content="Log Out" HorizontalAlignment="Center" Margin="0,375,0,0" VerticalAlignment="Top" Click="Button_Click"/>
 
     </Grid>
 </Window>

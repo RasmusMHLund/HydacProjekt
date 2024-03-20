@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using HydacProjekt.Views;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -19,6 +20,19 @@ namespace HydacProjekt
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void Login_Click(object sender, RoutedEventArgs e)
+        {
+            Window1 window1 = new Window1();
+            window1.Show();
+            Close();
+        }
+
+        private void Register_Click(object sender, RoutedEventArgs e)
+        {
+            RegisterScreen registerScreen = new RegisterScreen();
+            registerScreen.Show();
         }
 
     }

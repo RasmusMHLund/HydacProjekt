@@ -7,13 +7,14 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <TextBox x:Name="Login" HorizontalAlignment="Center" Margin="0,199,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" BorderThickness="2"/>
-        <TextBox x:Name="Password" HorizontalAlignment="Center" Margin="0,239,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" BorderThickness="2"/>
-        <Button Content="Login" HorizontalAlignment="Center" Margin="0,282,0,0" VerticalAlignment="Top" Click="Button_Click" Height="29" Width="61"/>
-        <Label Content="Hydac Service Portal" HorizontalAlignment="Center" Margin="0,84,0,0" VerticalAlignment="Top" Height="37" Width="244" FontSize="24" FontWeight="Bold"/>
-        <Button x:Name="Register" Content="Register" HorizontalAlignment="Center" Margin="0,328,0,0" VerticalAlignment="Top" Click="Button_Click" Height="29" Width="60"/>
+        <TextBox x:Name="txtUsername" HorizontalAlignment="Center" Margin="0,199,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" BorderThickness="2"/>
+        <TextBox x:Name="txtPassword" HorizontalAlignment="Center" Margin="0,239,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" BorderThickness="2"/>
+        <Button Content="Login" HorizontalAlignment="Center" Margin="0,282,0,0" VerticalAlignment="Top" Click="Login_Click" Height="29" Width="61"/>
+        <Button x:Name="Register" Content="Register" HorizontalAlignment="Center" Margin="0,328,0,0" VerticalAlignment="Top" Click="Register_Click" Height="29" Width="60"/>
         <Rectangle HorizontalAlignment="Center" Height="60" VerticalAlignment="Top" Width="800" Fill="DimGray"/>
-        <Image Margin="216,-16,216,313" Source="/Images/HYDAC_Logo_NOVO_(1).png" Stretch="Fill"/>
+        <Image x:Name="HydacImage" Margin="216,-16,216,313" Source="/Images/HYDAC_Logo_NOVO_(1).png" Stretch="Fill"/>
+        <Label Content="Username" HorizontalAlignment="Center" Margin="0,173,0,0" VerticalAlignment="Top"/>
+        <Label Content="Password" HorizontalAlignment="Center" Margin="0,217,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>

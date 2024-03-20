@@ -10,6 +10,12 @@
         <Rectangle HorizontalAlignment="Center" Height="60" VerticalAlignment="Top" Width="800" Fill="DimGray"/>
         <Image Margin="0,-7,556,367" Source="/HYDAC_Logo_NOVO_(1).png" Stretch="Fill"/>
         <Image Margin="216,-16,216,313" Source="/Images/HYDAC_Logo_NOVO_(1).png" Stretch="Fill"/>
+        <TextBox x:Name="Login" HorizontalAlignment="Center" Margin="0,199,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" BorderThickness="2"/>
+        <TextBox x:Name="Password" HorizontalAlignment="Center" Margin="0,239,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" BorderThickness="2"/>
+        <Button Content="Save Product" HorizontalAlignment="Center" Margin="0,282,0,0" VerticalAlignment="Top" Height="29" Width="80"/>
+        <Label Content="Product Name" HorizontalAlignment="Left" Margin="340,173,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.36,0.811"/>
+        <Label Content="Material Number" HorizontalAlignment="Left" Margin="340,217,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="BackButton" Content="Back" HorizontalAlignment="Center" Margin="0,323,0,0" VerticalAlignment="Top" Width="52" Click="BackButton_Click"/>
 
     </Grid>
 </Window>

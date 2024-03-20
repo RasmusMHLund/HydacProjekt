@@ -9,9 +9,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Images\HYDAC_Logo_NOVO_%281%29.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Models\" />
-    <Folder Include="Images\" />
     <Folder Include="ViewModels\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\HYDAC_Logo_NOVO_(1).png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 
 </Project>

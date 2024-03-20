@@ -10,6 +10,11 @@
         <Rectangle HorizontalAlignment="Center" Height="60" VerticalAlignment="Top" Width="800" Fill="DimGray"/>
         <Image Margin="0,-7,556,367" Source="/HYDAC_Logo_NOVO_(1).png" Stretch="Fill"/>
         <Image Margin="216,-16,216,313" Source="/Images/HYDAC_Logo_NOVO_(1).png" Stretch="Fill"/>
+        <TextBox HorizontalAlignment="Left" Margin="109,121,0,0" TextWrapping="Wrap" Text="Reports - Sorted via products" VerticalAlignment="Top" Width="227" Height="233"/>
+        <TextBox HorizontalAlignment="Left" Margin="430,121,0,0" TextWrapping="Wrap" Text="Report - Issue" VerticalAlignment="Top" Width="260" Height="90"/>
+        <TextBox HorizontalAlignment="Left" Margin="430,264,0,0" TextWrapping="Wrap" Text="Solution" VerticalAlignment="Top" Width="260" Height="90"/>
+        <Button Content="Back" HorizontalAlignment="Left" Margin="108,376,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Button Content="Save" HorizontalAlignment="Left" Margin="648,376,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.501,-0.708"/>
 
     </Grid>
 </Window>

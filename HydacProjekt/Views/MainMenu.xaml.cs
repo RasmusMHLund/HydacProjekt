@@ -24,5 +24,29 @@ namespace HydacProjekt.Views
             InitializeComponent();
         }
 
+        private void Report_Screen_Click(object sender, RoutedEventArgs e)
+        {
+            ReportScreen reportScreen = new ReportScreen();
+            reportScreen.Show();
+        }
+
+        private void Solution_Screen_Click(object sender, RoutedEventArgs e)
+        {
+            SolutionScreen solutionScreen = new SolutionScreen();
+            solutionScreen.Show();
+        }
+
+        private void Product_Screen_Click(object sender, RoutedEventArgs e)
+        {
+            ProductScreen productScreen = new ProductScreen();  
+            productScreen.Show();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow mainWindow = new MainWindow();  
+            mainWindow.Show();
+            Close();
+        }
     }
 }
